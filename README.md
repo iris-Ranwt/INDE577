@@ -1,4 +1,4 @@
-**INDE577 Spring 2023** 
+#INDE577 Spring 2023
 
 **Student Name: Weitao Ran**    
 **Instructor: Name: Randy R. Davila** 
