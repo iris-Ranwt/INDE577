@@ -10,9 +10,9 @@ This repository is created by Weitao Ran, a graduate student in MSTAT,  and is a
  
 + Supervised Learning
   + [Decision Trees](https://github.com/iris-Ranwt/INDE577/tree/main/supervised-learning/Decision-Tress)
-  + [Ensemble-learning](https://github.com/iris-Ranwt/INDE577/tree/main/supervised-learning/Ensemble-learning)
+  + [Ensemble learning](https://github.com/iris-Ranwt/INDE577/tree/main/supervised-learning/Ensemble-learning)
   + [Gradient Descent](https://github.com/iris-Ranwt/INDE577/tree/main/supervised-learning/Gradient_Descent)
-  + [K-Nearest](https://github.com/iris-Ranwt/INDE577/tree/main/supervised-learning/K-Nearest)
+  + [K Nearest](https://github.com/iris-Ranwt/INDE577/tree/main/supervised-learning/K-Nearest)
   + [Linear Regression](https://github.com/iris-Ranwt/INDE577/tree/main/supervised-learning/Linear-Regression)
   + [Logistic Regression](https://github.com/iris-Ranwt/INDE577/tree/main/supervised-learning/Logistic_Regression)
   + [Neural Net](https://github.com/iris-Ranwt/INDE577/tree/main/supervised-learning/Neural-Net)
@@ -20,12 +20,9 @@ This repository is created by Weitao Ran, a graduate student in MSTAT,  and is a
   
 
   
-
-
-  
-  
 ### Unsupervised Learning 
-  
+  + [K Means](https://github.com/iris-Ranwt/INDE577/tree/main/supervised-learning/k-means)
+  + [Ensemble learning](https://github.com/iris-Ranwt/INDE577/tree/main/supervised-learning/PCA)  
   
   
   
