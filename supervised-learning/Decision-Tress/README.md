@@ -7,12 +7,24 @@ In this part we would discuss about decision tree. A decision tree is a non-para
 ## Dataset Description 
 
 ### Overview
-The data has been split into two groups:
+We would use dataset of Tianic from kaggle in this assignment and performing the decision tree and the data has been split into two datasets:
 
 *  training set (train.csv)  
 *  test set (test.csv)   
 
-We would use dataset of Tianic from kaggle in this assignment and performing the decision tree. The training set is be used to build the models, as it provides the outcome for each passenger. The test set is be used to see how well the model performs on unseen data.
+The datasets contain of:  
+* survival:	Survival	0 = No, 1 = Yes  
+* pclass:	Ticket class	1 = 1st, 2 = 2nd, 3 = 3rd  
+* sex:	Sex	  
+* Age:	Age in years	  
+* sibsp:	number of siblings / spouses aboard the Titanic	  
+* *parch:	number of parents / children aboard the Titanic	  
+* ticket:	Ticket number	   
+* fare:	Passenger fare	   
+* cabin:	Cabin number	   
+* embarked: Port of Embarkation. C = Cherbourg, Q = Queenstown, S = Southampton 
+
+ The training set is be used to build the models, as it provides the outcome for each passenger. The test set is be used to see how well the model performs on unseen data.
   
    
 ## Packages
@@ -26,3 +38,4 @@ The following packages will be needed to run the code below:
 ## Reference 
 * What is decision tree, IBM, https://www.ibm.com/topics/decision-trees#:~:text=A%20decision%20tree%20is%20a,internal%20nodes%20and%20leaf%20nodes.  
 * Kaggle dataset, https://www.kaggle.com/competitions/titanic/data?select=test.csv 
+* Decision Tree - Classification, https://www.saedsayad.com/decision_tree.htm 
