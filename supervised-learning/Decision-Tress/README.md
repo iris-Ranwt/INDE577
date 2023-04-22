@@ -7,25 +7,24 @@ In this part we would discuss about decision tree. A decision tree is a non-para
 ## Dataset Description 
 
 ### Overview
-We would use dataset of Tianic from kaggle in this assignment and performing the decision tree and the data has been split into two datasets:
+We would use dataset of breast cancer from kaggle in this assignment and performing the decision tree:
+The main importent variables in the datasets are:  
+1. ID number
+2. Diagnosis (M = malignant, B = benign)
+3-32)
 
-*  training set (train.csv)  
-*  test set (test.csv)   
+Ten real-valued features are computed for each cell nucleus:  
+1.  radius (mean of distances from center to points on the perimeter)  
+2. texture (standard deviation of gray-scale values)   
+3. perimeter   
+4. area  
+5. smoothness (local variation in radius lengths)  
+6. compactness (perimeter^2 / area - 1.0)  
+7. concavity (severity of concave portions of the contour)  
+8. concave points (number of concave portions of the contour)  
+9. symmetry  
+ 10.  fractal dimension ("coastline approximation" - 1) 
 
-The datasets contain of:  
-* survival:	Survival	0 = No, 1 = Yes  
-* pclass:	Ticket class	1 = 1st, 2 = 2nd, 3 = 3rd  
-* sex:	Sex	  
-* Age:	Age in years	  
-* sibsp:	number of siblings / spouses aboard the Titanic	  
-* *parch:	number of parents / children aboard the Titanic	  
-* ticket:	Ticket number	   
-* fare:	Passenger fare	   
-* cabin:	Cabin number	   
-* embarked: Port of Embarkation. C = Cherbourg, Q = Queenstown, S = Southampton 
-
- The training set is be used to build the models, as it provides the outcome for each passenger. The test set is be used to see how well the model performs on unseen data.
-  
    
 ## Packages
 The following packages will be needed to run the code below:
@@ -37,5 +36,5 @@ The following packages will be needed to run the code below:
 
 ## Reference 
 * What is decision tree, IBM, https://www.ibm.com/topics/decision-trees#:~:text=A%20decision%20tree%20is%20a,internal%20nodes%20and%20leaf%20nodes.  
-* Kaggle dataset, https://www.kaggle.com/competitions/titanic/data?select=test.csv 
+* Kaggle dataset, https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 * Decision Tree - Classification, https://www.saedsayad.com/decision_tree.htm 
